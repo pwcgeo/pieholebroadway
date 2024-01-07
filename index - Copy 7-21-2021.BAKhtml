@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!-- 
+/* Copyright 2020 Prestige Worldwide Consulting */
+/* Original work. May not be copied nor used without written permission */ 
+/* Licensed to Pie Hole Broadway (Boise) */
+-->        
+        
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162966186-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-162966186-3');
+</script>
+<title>Pie Hole</title>
+<META NAME="description" CONTENT="We are located in Boise by the Boise State Stadium and specialize in thin crust style pizza.  Our pizza kicks butt!">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="ph.css">
+         </head>
+<body>
+
+   <div class="desktoptext"> <!-- this division hides when screen size is reduced -->
+<h2>Amazing pizza, open all day and late night for your pizza needs!</h2>
+  </div>
+
+    <div class="topimages">
+    <img class="top2images" src="topleft.jpg" style="max-width: 25%; height:auto;" alt="image">
+    
+    <img class="toplogo" src="phtop.jpg" alt="image">
+    
+    <img class="top2images" src="topright.jpg" style="max-width: 25%; height:auto;" alt="image">
+    </div>    
+       
+ 
+ 
+ 
+   <div class="desktoptext2">  <!-- this division hides when screen size is reduced -->
+<h3>1016 Broadway Ave<br>Boise, ID 83706<br>208-424-2225</h3>
+    
+    </div>       
+     
+   
+	<div class="large-flex">
+        
+		<a href="https://order.online/online-ordering/store/piehole-885365?hideModal=true" target="_blank" alt="Order Pickup" title="Order Pickup" style="text-decoration: none"><div class="largebuttons">Order Pickup</div></a>
+    
+    
+        <a href="https://order.online/online-ordering/store/piehole-885365?delivery=true" target="_blank" alt="Order Pickup" title="Order Delivery" style="text-decoration: none"><div class="largebuttons">Order Delivery </div></a>
+  
+        <a href="menu.html" target="_self" alt="View Menu" title="Full Menu" style="text-decoration: none">
+                <div class="largebuttons">Full Menu</div></a>
+     
+        <a href="http://facebook.com/Pie-Hole-Broadway-110108217299576" alt="Facebook" title="Facebook" style="text-decoration: none">
+                <div class="largebuttons hiddenStart">Facebook</div></a>
+        <a href="tel:12084242225" alt="208-424-2225" title="Call Us" style="text-decoration: none">
+                <div class="largebuttons hiddenStart">Call Us</div></a>
+    </div>
+    
+    
+        <div class="hours">
+                <u>Throwin' Dough</u>
+                <br>
+                Daily 11AM-3AM
+                <br>
+                <h4>Open during Covid-19 for take-out, curbside, and delivery! (Dining room closed, patio open!)</h4>
+        </div>			
+    
+    <br>
+    
+        <!-- facebook Javascript SDK -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- end facebook javascript SDK --> 
+   
+    
+<div class="placement-flex">
+         
+         <!-- facebook feed -->
+        <div class="fb-like-box" data-href="Pie-Hole-Broadway-110108217299576" data-width="500" data-height="800" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="true">
+        </div>
+         
+        
+         
+         
+         
+        <div class="slices">
+                <u>By the slice:</u>
+                <br><br>
+                Cheese: $2.78
+                <br>
+                Pepperoni: $3.11
+                <br>
+                Roasted Red Pepper &amp; Basil: $3.11
+                <br>
+                Potato Bacon: $3.35
+                <br>
+                Vegan Slice: $3.35
+                <br>
+                Slice of the Day: $3.35
+            <p><i>(plus sales tax)</i></p>
+        </div>			
+     
+    
+</div>
+
+    
+    
+<!-- Google Map, normally hidden, visible on mobile -->
+     
+  <a href="https://www.google.com/maps/place/Pie+Hole/@43.600377,-116.1953777,17z/data=!3m1!4b1!4m5!3m4!1s0x54aef850993be097:0x5872eee815c3ec85!8m2!3d43.600377!4d-116.193189" alt="1016 Broadway Ave" title="Map" style="text-decoration: none">
+                <div class="hiddenStart"><img class="hiddenStart" src="map.jpg" style="max-width: 80%; height:auto; margin-left:auto; margin-right:auto; display: block;" alt="map"></div>
+    </a>  
+    
+    
+<!-- End of Google Map, normally hidden, visible on mobile -->    
+
+   
+    
+<!-- Instagram feed -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- End of Instagram feed -->
+    
+<!-- Photo Grid -->
+<div class="pics-row"> 
+  <div class="pics-column">
+    <img src="bi1.jpg" style="width:100%">
+    <img src="bi2.jpg" style="width:100%">
+    <img src="bi3.jpg" style="width:100%">
+    <img src="bi4.jpg" style="width:100%">
+  </div>
+  
+  <div class="pics-column">
+    <img src="bi5.jpg" style="width:100%">
+    <img src="bi6.jpg" style="width:100%">
+    <img src="bi7.jpg" style="width:100%">
+    <img src="bi8.jpg" style="width:100%">
+  </div> 
+   
+  <div class="pics-column">
+    <img src="bi9.jpg" style="width:100%">
+    <img src="bi10.jpg" style="width:100%">
+    <img src="bi11.jpg" style="width:100%">
+    <img src="bi12.jpg" style="width:100%">
+  </div>
+  
+  <div class="pics-column">
+    <img src="bi13.jpg" style="width:100%">
+    <img src="bi14.jpg" style="width:100%">
+    <img src="bi15.jpg" style="width:100%">
+    <img src="bi16.jpg" style="width:100%">
+  </div>
+</div>
+    
+  <div class="slices">
+    <p style="font-size:10px">
+       Copyright 2020 by Prestige Worldwide Consulting. Licensed to location specific Pie Holes. Content and markup is original work and may not be copied without written permission from the author.     
+    </p>
+    </div> 
+    
+</body>
+</html>
