@@ -1,0 +1,385 @@
+/* Copyright 2020 Prestige Worldwide Consulting */
+/* Original work. May not be copied nor used without written permission */ 
+/* Licensed to location specific Pie Holes */
+
+body {
+background-color: white;
+}
+.desktoptext {
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    font-family: sans-serif;
+    font-style="font-size:3vw"
+    
+}
+.desktoptext2 {
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 2em;
+    
+}
+
+h1 {
+    font-family: sans-serif;
+   
+}
+h2 {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-family: sans-serif;
+     font-size: 3vw;
+    
+}
+h3 {
+     color: black;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-family: sans-serif;
+     font-size: 2vw;
+}
+h4 {
+    font-family: sans-serif;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+h5 {
+    font-family: sans-serif;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 1.6em;
+}
+h6 {
+    font-family: sans-serif;
+}
+h7 {
+    font-family: sans-serif;
+}
+p {
+    font-family: sans-serif;
+}
+
+/* flex box for top 3 images */
+.topimages{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+
+table.navtab {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+img.top2images {
+     padding: 20px;
+    margin: auto;
+}
+img.toplogo {
+     padding: 20px;
+    margin: auto;
+    width: 40%;
+}
+img.menu {
+    max-width: 95vw;
+}
+
+.largebuttons {
+    position: relative;
+    min-width: 300px;
+    min-height: 60px;
+    max-width:300px;
+    max-height:80px;
+    margin: 4px; 
+    background-color: #C80000;  
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 16px; 
+    padding: 10px; 
+    color:white; 
+    font-family: Roboto, Arial, sans-serif; 
+    font-weight: bold; 
+    font-size: 2.5em;
+    vertical-align: middle;
+}
+.hiddenStart {
+    display: none;
+}
+
+.smallbuttons {
+    position: relative; 
+    width:220px; 
+    margin: 0px auto; 
+    background-color: #C80000;  
+    text-align: center;
+    border-radius: 16px; 
+    padding: 20px; 
+    color:white; 
+    font-family: Roboto, Arial, sans-serif; 
+    font-weight: bold; 
+    font-size: 1.2em;
+    
+}
+
+.largebuttons:hover {
+    background-color: #770000; 
+}
+.smallbuttons:hover {
+    background-color: #770000; 
+}
+
+.hours {
+    position: relative; 
+    width:280px; 
+    margin: 0px auto; 
+    background-color: white;  
+    text-align: center;
+    border-radius: 1px; 
+    padding: 20px; 
+    color: black; 
+    font-family: Roboto, Arial, sans-serif; 
+    font-weight: bold; 
+    font-size: 1.6em;
+    
+}
+.sale {
+    position: relative; 
+    width:80%; 
+    margin: 0px auto; 
+    background-color: white;  
+    text-align: center;
+    border-radius: 1px; 
+    padding: 0px; 
+    color: black; 
+    font-family: Roboto, Arial, sans-serif; 
+    font-weight: bold; 
+    font-size: 1.6em;
+    
+}
+
+.fb-like-box {
+    position: relative; 
+    width:500px; 
+    height: auto;
+    margin: 0px auto; 
+    background-color: white;  
+    text-align: center;
+    padding: 20px; 
+    
+    
+}
+
+.slices {
+    position: relative; 
+    width:500px; 
+    height: auto;
+    margin: 0px auto; 
+    background-color: white;  
+    text-align: center;
+    border-radius: 1px; 
+    padding: 20px; 
+    color: black; 
+    font-family: Roboto, Arial, sans-serif; 
+    font-weight: bold; 
+    font-size: 1.6em;
+    
+}
+/* not used in simplicity MO change 
+@media screen and (max-width: 600px){
+    
+}
+
+.daily {
+    position: relative; 
+    width:400px; 
+    height: auto;
+    margin: 0px auto; 
+    background-color: white;  
+    text-align: center;
+    border-radius: 1px; 
+    padding: 20px; 
+    color: black; 
+    font-family: Roboto, Arial, sans-serif; 
+    font-weight: bold; 
+    font-size: 1.6em;
+    
+}
+not used in simplicity change */ 
+
+
+
+/* The flexbox container to allow the navigation buttons to move around */
+
+.large-flex {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+   /* justify-content: space-around; */
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 4px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 992px){
+    .large-flex {
+        flex-direction: column;
+        margin: auto;
+        max-width: 80%;
+        z-index: +1;
+        align-items: center;
+    }
+     .largebuttons {
+    font-size: 2.6em;
+    padding: 20px;
+    align-items: center;    
+    align-content: center;
+    justify-content: center;
+    min-height: 0px;
+    }
+    div.desktoptext {
+        display: none;
+    }
+    .desktoptext2 {
+        font-size: 3em;
+    }
+    .hours {
+        font-size: 1.2em;
+    }
+    img.toplogo {
+        display: block;
+        margin: auto;
+        max-width: 80%;
+        z-index: +1;
+    }
+    img.top2images {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .largebuttons {
+    font-size: 2.6em;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+    
+    }
+    
+    .large-flex {
+        height: auto;
+        justify-content: space-between;
+    }
+    .hiddenStart {
+        display: inline-flex;
+    }
+    div.desktoptext2 {
+        display: none;
+    }
+    .slices {
+        display: none;
+    }
+    .topimages {
+        width: 80%;
+        justify-content: center;
+        align-content: center;
+    }
+    img.toplogo {
+        max-width: 100%;
+        width: 60vw;
+        padding: 2px;
+        margin: auto;
+    }
+    
+}
+
+
+/* The flexbox container to place the facebook feed, slices list, and daily specials */
+
+.placement-flex {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px;
+   
+}
+@media screen and (max-width: 992px){
+    .placement-flex {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px){
+    .placement-flex {
+        display: none;
+    }
+}
+
+/* Bitcoin / Litecoin / Crypto area */
+
+.crypto {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    justify-content: center; 
+    max-width: 400px;
+    align-items: center                          /* Finally fucking found the code to align all everything!!! fml */
+}
+
+@media screen and (max-width: 600px){
+    .crypto {
+        display: none;
+    }
+}
+/* Photo grid */ /* Photo grid *//* Photo grid *//* Photo grid *//* Photo grid *//* Photo grid *//* Photo grid */
+.pics-row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+}
+.pics-column {
+    flex: 24%;
+    max-width: 24%;
+    padding: 4px;
+}
+.pics-column img {
+    margin-top: 6px;
+    vertical-align: middle;
+}
+
+/* responsive sizing for photo grid makes a two column stack instead of four*/
+@media (max-width: 992px){
+    .pics-column {
+        flex: 49%;
+        max-width: 49%;
+    }
+}
+/* responsive sizing for photo grid makes a two column stack instead of four*/
+@media (max-width: 600px){
+    .pics-column {
+        display: none;
+    }
+}
